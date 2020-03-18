@@ -1,0 +1,22 @@
+name: FindAMentor
+targets:
+  FindAMentor:
+    platform: iOS
+    type: application
+    deploymentTarget: "12.0"
+    sources:
+      - FindAMentor
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.codingcoach.FindAMentor
+    scheme:
+      testTargets: 
+        - FindAMentorTests   
+  
+  FindAMentorTests:
+    platform: iOS
+    type: bundle.unit-test
+    sources:
+      - FindAMentorTests/
+    dependencies:
+      - target: FindAMentor
