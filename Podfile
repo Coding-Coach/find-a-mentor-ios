@@ -9,4 +9,5 @@ target 'FindAMentor' do
   pod 'Tempura', '~> 4.0'
   pod 'BonMot', '~> 5.5'
   pod 'PinLayout', '~> 1.8'
+  pod 'Auth0', '~> 1.19'
 end

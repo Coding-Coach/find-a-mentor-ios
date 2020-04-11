@@ -6,4 +6,18 @@ import Katana
 /// to work at runtime
 struct AppState: State, Codable {
 
+  enum CodingKeys: String, CodingKey {
+    case userState
+    case mentorsState
+    case loginState
+  }
+
+  // MARK: - Persisted Slices
+  var loginState: LoginState = LoginState()
+  var userState: UserState = UserState()
+  var mentorsState: MentorsState = MentorsState()
+
+  // MARK: - Non persisted Slices
+  var environmentState: EnvironmentState = EnvironmentState()
+
 }
