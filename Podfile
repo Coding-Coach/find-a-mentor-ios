@@ -7,4 +7,6 @@ target 'FindAMentor' do
 
   pod 'Katana', '~> 3.0'
   pod 'Tempura', '~> 4.0'
+  pod 'BonMot', '~> 5.5'
+  pod 'PinLayout', '~> 1.8'
 end
