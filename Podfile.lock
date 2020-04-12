@@ -1,13 +1,19 @@
 PODS:
+  - Auth0 (1.23.0):
+    - JWTDecode
+    - SimpleKeychain
   - BonMot (5.5.1)
   - HydraAsync (1.2.1)
+  - JWTDecode (2.4.1)
   - Katana (3.1.0):
     - HydraAsync (~> 1.2)
   - PinLayout (1.8.13)
+  - SimpleKeychain (0.11.1)
   - Tempura (4.3.0):
     - Katana (< 4, >= 3.0)
 
 DEPENDENCIES:
+  - Auth0 (~> 1.19)
   - BonMot (~> 5.5)
   - Katana (~> 3.0)
   - PinLayout (~> 1.8)
@@ -15,19 +21,25 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Auth0
     - BonMot
     - HydraAsync
+    - JWTDecode
     - Katana
     - PinLayout
+    - SimpleKeychain
     - Tempura
 
 SPEC CHECKSUMS:
+  Auth0: a0e48dc2562c33e82f3aaf3bf400f4b4071a1d79
   BonMot: 0d179476725af81f622a6d9f660f43048070016a
   HydraAsync: 8f2ab62d57e140b4ca587ae0f66e1eb04e8e6965
+  JWTDecode: 4bd4da0cdf0f8154fd467fa48499f34ec057fb88
   Katana: caa2adb661a386f9a993a15845841dc2c9b083aa
   PinLayout: e41a50260a76508b7a7fcee8955c76639adc69bc
+  SimpleKeychain: 0c657949c7afff92337d2ff64052d5eb5c53823e
   Tempura: d38c2d982864d9dbca6b11a519e8b00024d04abd
 
-PODFILE CHECKSUM: 6374573bee81062db9563a8830bf5329d3eca12a
+PODFILE CHECKSUM: 2b3366d83ceb8d259efca771d2f43515526ae2f0
 
 COCOAPODS: 1.8.4
