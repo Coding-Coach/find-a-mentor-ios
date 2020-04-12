@@ -30,6 +30,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RootInstaller {
     return true
   }
 
+  func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+    self.store.dependencies.authManager.resumeAuthentication(from: url, with: options)
+  }
+
 }
 
 extension AppDelegate {
